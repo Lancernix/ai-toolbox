@@ -43,7 +43,8 @@ Keep `SKILL.md` lean. Move detailed schemas, API docs, or long examples to the `
 
 ### Learn Proven Design Patterns
 For a comprehensive guide on authoring high-quality skills, consult:
-- **Best Practices**: See `references/skill-create-best-practice.md` for core principles, naming conventions, and optimization strategies.
+- **Best Practices (Online - Priority)**: Always try to fetch the latest guidelines from [Claude Best Practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) first. Note: Filter out platform-specific (e.g., Claude Code) details to keep skills generic.
+- **Best Practices (Local - Fallback)**: If offline, use `references/skill-create-best-practice.md` which contains a cleaned, platform-agnostic version of the core principles.
 
 ### Multi-step Processes
 When a task is fragile or requires a specific sequence, use low-freedom scripts or detailed pseudocode.
