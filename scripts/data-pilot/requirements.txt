@@ -1,6 +1,0 @@
-polars
-xlsxwriter
-fastexcel
-pandas
-openpyxl
-pyarrow
